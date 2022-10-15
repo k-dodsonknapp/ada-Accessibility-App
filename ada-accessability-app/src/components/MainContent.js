@@ -1,12 +1,12 @@
 import "../App.css";
-import { About } from "./views";
+import { Home } from "./views";
 import { Routes, Route, Link } from "react-router-dom";
 
 const MainContent = () => {
   return (
     <div className="routes">
       <Routes>
-        <Route exact path="/About" element={<About />} />
+        <Route exact path="/Home" element={<Home />} />
       </Routes>
     </div>
   );
