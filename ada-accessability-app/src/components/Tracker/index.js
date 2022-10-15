@@ -1,17 +1,71 @@
+import Day from "./Day";
+import "./tracker.css";
+
 const Tracker = () => {
-    return (
+  const week = [
+    {
+      dayOfWeek: "Monday",
+      entries: [
+        { title: "went to the gym", rating: "smile" },
+        { title: "meditate", rating: "big smile" },
+      ],
+    },
+    {
+      dayOfWeek: "Monday",
+      entries: [
+        { title: "went to the gym", rating: "smile" },
+        { title: "meditate", rating: "big smile" },
+      ],
+    },
+    {
+      dayOfWeek: "Monday",
+      entries: [
+        { title: "went to the gym", rating: "smile" },
+        { title: "meditate", rating: "big smile" },
+      ],
+    },
+    {
+      dayOfWeek: "Monday",
+      entries: [
+        { title: "went to the gym", rating: "smile" },
+        { title: "meditate", rating: "big smile" },
+      ],
+    },
+    {
+      dayOfWeek: "Monday",
+      entries: [
+        { title: "went to the gym", rating: "smile" },
+        { title: "meditate", rating: "big smile" },
+      ],
+    },
+    {
+      dayOfWeek: "Monday",
+      entries: [
+        { title: "went to the gym", rating: "smile" },
+        { title: "meditate", rating: "big smile" },
+      ],
+    },
+    {
+      dayOfWeek: "Monday",
+      entries: [
+        { title: "went to the gym", rating: "smile" },
+        { title: "meditate", rating: "big smile" },
+      ],
+    },
+  ];
+
+  return (
+    <div className="tracker-page-wrapper">
+      <h2>Track your thoughts?</h2>
+      <p> October 16 - 23 </p>
+
       <div className="week">
-        <div className="Monday">
-          <div className="entry"></div>
-          <div className="entry"></div>
-          <div className="entry"></div>
-        </div>
-        <div className="Tuesday"></div>
-        <div className="Wednesday"></div>
-        <div></div>
-        <div></div>
+        {week.map((day) => {
+          return <Day dayOfWeek={day.dayOfWeek} entries={day.entries} />;
+        })}
       </div>
-    );
-  };
-  
-  export default Tracker;
+    </div>
+  );
+};
+
+export default Tracker;
