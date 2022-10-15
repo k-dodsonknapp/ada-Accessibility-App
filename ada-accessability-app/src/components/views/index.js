@@ -1,3 +1,3 @@
-import About from "./About.js";
+import About from "./Home.js";
 
 export { About };

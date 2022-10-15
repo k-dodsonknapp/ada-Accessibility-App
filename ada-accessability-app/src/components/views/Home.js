@@ -1,7 +1,7 @@
 import "../../App.css";
 
-const About = () => {
+const Home = () => {
   return <div>Heres's our About Page</div>;
 };
 
-export default About;
+export default Home;
