@@ -5,8 +5,10 @@ const Home = () => {
   return (
     <div className="homepage-wrapper">
       <div className="hero-wrapper"></div>
-      <div className="content-box-1">
-
+      <div className="content-box"></div>
+      <div className="features-wrapper"></div>
+      <div className="testimonials-wrapper">
+        
       </div>
     </div>
 
