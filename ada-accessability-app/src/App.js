@@ -1,6 +1,7 @@
 // import logo from "./logo.svg";
 import logo from "./TeamShotADA.png";
 import "./App.css";
+import MainContent from "./components/MainContent";
 
 function App() {
   return (
@@ -18,6 +19,8 @@ function App() {
           Learn React
         </a>
       </header>
+
+      <MainContent />
     </div>
   );
 }
