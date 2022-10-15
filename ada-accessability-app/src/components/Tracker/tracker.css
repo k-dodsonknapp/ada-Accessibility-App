@@ -1,5 +1,5 @@
 .tracker-page-wrapper {
-  /* background-color: aqua; */
+  background-color: #e3d6c5;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -13,6 +13,7 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  width: 80%;
 }
 
 .day {
@@ -25,9 +26,14 @@
 }
 
 .entry {
+  background-color: white;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  border: solid black;
+  /* border: solid black 0.1px; */
+  margin: 5px;
+
+  background-color: white;
+  box-shadow: 0 0 0 2px rgb(255, 255, 255), 0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
 }

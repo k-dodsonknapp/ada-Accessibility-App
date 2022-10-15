@@ -1,17 +1,23 @@
 import { Link } from "react-router-dom";
-import './navBar.css'
+import "./navBar.css";
+import signInIcon from "./sign-in-logo.svg";
 
 const NavBar = () => {
   return (
-    <div className="navbar">
-      <div>Logo</div>
+    <div className="header">
+      <div className="logo">Logo</div>
 
-      <Link to="/">Home</Link>
-      <Link to="/contact">Contact</Link>
-      <Link to="/tracker">Tracker</Link>
-      <Link to="/resources">Resources</Link>
-      <Link to="/community">Community</Link>
-      <div>User SignIn / User Image</div>
+      <div className="navbar">
+        <Link to="/">Home</Link>
+        <Link to="/contact">Contact</Link>
+        <Link to="/tracker">Tracker</Link>
+        <Link to="/resources">Resources</Link>
+        <Link to="/community">Community</Link>
+      </div>
+
+      <div className="sign-in">
+        <div>{signInIcon}</div>
+      </div>
     </div>
   );
 };
