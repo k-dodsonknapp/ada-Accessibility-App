@@ -2,10 +2,12 @@
 import logo from "./TeamShotADA.png";
 import "./App.css";
 import MainContent from "./components/MainContent";
+import NavBar from "./components/Navbar";
 
 function App() {
   return (
     <div className="App">
+      <NavBar />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <h1>welcome to our mental health app!</h1>
