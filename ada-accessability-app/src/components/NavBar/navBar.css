@@ -24,6 +24,10 @@
   text-decoration: none;
 }
 
+.navbar .active {
+  text-decoration: underline;
+}
+
 .logo {
   margin-right: 190px;
   color: #008080;
