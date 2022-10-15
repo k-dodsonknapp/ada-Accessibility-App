@@ -1,0 +1,24 @@
+{
+  "name": "ada-accessibility-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/k-dodsonknapp/ada-Accessibility-App.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/k-dodsonknapp/ada-Accessibility-App/issues"
+  },
+  "homepage": "https://github.com/k-dodsonknapp/ada-Accessibility-App#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
