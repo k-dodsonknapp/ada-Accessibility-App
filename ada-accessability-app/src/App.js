@@ -1,32 +1,29 @@
 // import logo from "./logo.svg";
 import logo from "./TeamShotADA.png";
 import "./App.css";
-import MainContent from "./components/MainContent";
-import NavBar from "./components/Navbar";
+import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Community from "./components/Community";
+import Contact from "./components/Contact";
+import Tracker from "./components/Tracker";
+import Resources from "./components/Resources";
+import Home from "./components/Home";
+
 
 function App() {
   return (
-    // <div className="App">
-    //   <header className="App-header">
-    //     <img src={logo} className="App-logo" alt="logo" />
-    //     <h1>welcome to our mental health app!</h1>
-    //     <p>Hung, Emmer, Kenneth, Maryna, Hahn, Tedi</p>
-    //     <a
-    //       className="App-link"
-    //       href="https://reactjs.org"
-    //       target="_blank"
-    //       rel="noopener noreferrer"
-    //     >
-    //       Learn React
-    //     </a>
-    //   </header>
-    <>
+    <BrowserRouter>
       <NavBar />
-      <MainContent />
+      <Routes>
+        <Route exact path="/contact" element={<Contact />} />
+        <Route exact path="/tracker" element={<Tracker />} />
+        <Route exact path="/resources" element={<Resources />} />
+        <Route exact path="/community" element={<Community />} />
+        <Route exact path="/" element={<Home />} />
+      </Routes>
       <Footer />
-    </>
-    // </div>
+    </BrowserRouter>
   );
 }
 
