@@ -1,5 +1,5 @@
-// import logo from "./logo.svg";
-import logo from "./TeamShotADA.png";
+import logo from "./logo.svg";
+// import logo from "./TeamShotADA.png";
 import "./App.css";
 
 function App() {
