@@ -1,2 +1,0 @@
-# ada-Accessibility-App
-Accessibility 
