@@ -16,7 +16,8 @@ const NavBar = () => {
       </div>
 
       <div className="sign-in">
-        <div>{signInIcon}</div>
+        <img src={signInIcon} className="sign-in-icon" alt="sign-in-icon" />
+        <p>Hi Emily!</p>
       </div>
     </div>
   );

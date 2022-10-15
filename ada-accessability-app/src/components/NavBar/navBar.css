@@ -24,8 +24,20 @@
   text-decoration: none;
 }
 
-.logo,
-.sign-in {
+.logo {
   margin-right: 190px;
   color: #008080;
+}
+
+.sign-in {
+  color: #008080;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sign-in img {
+  fill: #008080;
+  width: 25px;
+  margin-right: 10px;
 }
