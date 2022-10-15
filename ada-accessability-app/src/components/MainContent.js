@@ -6,7 +6,7 @@ const MainContent = () => {
   return (
     <div className="routes">
       <Routes>
-        <Route exact path="/Home" element={<Home />} />
+        <Route exact path="/" element={<Home />} />
       </Routes>
     </div>
   );
