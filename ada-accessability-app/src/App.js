@@ -16,11 +16,11 @@ function App() {
     <BrowserRouter>
       <NavBar />
       <Routes>
+        <Route exact path="/" element={<Home />} />
         <Route exact path="/contact" element={<Contact />} />
         <Route exact path="/tracker" element={<Tracker />} />
         <Route exact path="/resources" element={<Resources />} />
         <Route exact path="/community" element={<Community />} />
-        <Route exact path="/" element={<Home />} />
       </Routes>
       <Footer />
     </BrowserRouter>
