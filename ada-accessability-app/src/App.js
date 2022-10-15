@@ -3,6 +3,7 @@ import logo from "./TeamShotADA.png";
 import "./App.css";
 import MainContent from "./components/MainContent";
 import NavBar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
     <>
       <NavBar />
       <MainContent />
+      <Footer />
     </>
     // </div>
   );
