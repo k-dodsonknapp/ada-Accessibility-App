@@ -8,7 +8,9 @@ function Footer() {
     <div className="footer">
         <img className="foot-logo-img" src={logo}></img>
         <ul className="site-map-UL">
-          <title>Site Map</title>
+          <li>
+          <p>Site Map</p>
+          </li>
           <li>
             <NavLink to="/">Home</NavLink>
           </li>

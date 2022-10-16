@@ -30,6 +30,11 @@
     text-decoration: none;
 }
 
+.site-map-UL p {
+    color: white;
+    text-decoration: none;
+}
+
 .site-map-UL a:hover{
     color: #52B5B5;
     text-decoration: underline;
