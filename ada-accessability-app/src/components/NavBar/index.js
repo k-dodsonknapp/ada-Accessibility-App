@@ -1,16 +1,21 @@
 import { Link } from "react-router-dom";
 import "./navBar.css";
 import signInIcon from "./sign-in-logo.svg";
+import logo from "./logoRppl.png";
 
 const NavBar = () => {
   return (
     <div className="header">
-      <div className="logo">Logo</div>
+      <div className="logo">
+        <img src={logo} className="logo-img" alt="logo" />
+      </div>
 
       <div className="navbar">
         <Link to="/">Home</Link>
         <Link to="/contact">Contact</Link>
-        <Link to="/tracker">Tracker</Link>
+        <Link className="active" to="/tracker">
+          Tracker
+        </Link>
         <Link to="/resources">Resources</Link>
         <Link to="/community">Community</Link>
       </div>
