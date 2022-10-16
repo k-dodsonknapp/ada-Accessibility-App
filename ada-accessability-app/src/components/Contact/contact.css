@@ -1,0 +1,110 @@
+.contact-wrapper {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+    /* width: 80%; */
+}
+
+.contact-wrapper h2 {
+    margin: 75px;
+    font-size: 25px;
+}
+
+.contact-wrapper p {
+    margin: 30px;
+    font-size: 20px;
+    width: 800px;
+}
+
+.contact-wrapper a {
+    text-decoration: none;
+    color: #008080;
+}
+
+.contact-wrapper a:hover {
+    color: #52B5B5;
+    text-decoration: underline;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+}
+
+.contact-form label {
+    font-weight: 700;
+    margin: 10px 0px;
+}
+
+.contact-form input {
+    height: 30px;
+    padding: 5px 3px;
+}
+
+.contact-form textarea {
+    resize: none;
+    height: 200px;
+}
+
+.btn-div button {
+    width: 200px;
+    height: 50px;
+    background-color: #008080;
+    border: none;
+    border-radius: 3px;
+    margin: 40px;
+}
+
+.btn-div button:hover {
+    background-color: #52B5B5;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.btn-div {
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+}
+
+
+.form-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    height: 575px;
+    /* display: flex;
+    flex-direction: row; */
+}
+
+.crisis-contact {
+    height: 400px;
+    margin-top: 100px;
+}
+
+.crisis-contact h3 {
+    font-weight: 800;
+
+}
+
+.contact-address {
+    display: flex;
+}
+
+.contact {
+    display: flex;
+}
+
+.contact a {
+    margin-top: 4px;
+    margin-left: 5px;
+    color: #008080;
+}
+
+.contact a:hover {
+    color: #52B5B5;
+
+}
