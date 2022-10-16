@@ -10,7 +10,6 @@ import Tracker from "./components/Tracker";
 import Resources from "./components/Resources";
 import Home from "./components/Home";
 
-
 function App() {
   return (
     <BrowserRouter>
