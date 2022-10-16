@@ -1,0 +1,23 @@
+.about-wrapper {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    /* width: 800px; */
+    padding: 100px;
+}
+
+.about-wrapper h1 {
+    display: flex;
+}
+
+
+.about-wrapper h2 {
+    width: 800px;
+    color: #CC5500;
+}
+
+.about-wrapper p {
+    width: 800px;
+}
