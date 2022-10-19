@@ -57,7 +57,7 @@ Rppl provides a toolkit for people looking to gain insights and resources to tak
 
 
 ## Home Screen
-![Screenshot (288)](https://github.com/k-dodsonknapp/ada-Accessibility-App/blob/main/media-for-readme/Screenshot%20(288).png)
+![Screenshot (288)](https://github.com/k-dodsonknapp/ada-Accessibility-App/blob/main/media-for-readme/Screenshot%20(292).png)
 ## Tracker
 ![Screenshot (287)](https://github.com/k-dodsonknapp/ada-Accessibility-App/blob/main/media-for-readme/Screenshot%20(287).png)
 ## About
