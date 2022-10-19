@@ -70,14 +70,12 @@ Rppl provides a toolkit for people looking to gain insights and resources to tak
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Be sure to install the dependencies with:
+Be sure to install the dependencies with in the root directory:
 
 ### npm install 
 or
 ### npm i
 
-## Available Scripts
-
-In the project directory, you can run:
+Then cd into the ada-accessability-app directory and run:
 
 ### `npm start`
